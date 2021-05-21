@@ -28,7 +28,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>THC
+          <Link to='' className='navbar-logo' onClick={closeMobileMenu}>THC
             <i class="fas fa-dharmachakra"></i>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
