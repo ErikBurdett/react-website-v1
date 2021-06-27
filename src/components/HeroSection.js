@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import { ListenButton } from './ListenButton';
 import './HeroSection.css';
-import { MerchButton } from './MerchButton';
+import { ShopButton } from './ShopButton';
 
 function HeroSection() {
   return (
@@ -18,22 +18,22 @@ function HeroSection() {
         >
           SHOP
         </Button> */}
-        <Button
+        <ListenButton
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
           LISTEN <i class="fas fa-dharmachakra"/>
-        </Button>
-        <MerchButton
+        </ListenButton>
+        <ShopButton
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
           SHOP <i class="fas fa-dharmachakra"/>
-        </MerchButton>
+        </ShopButton>
       </div>
     </div>
   );

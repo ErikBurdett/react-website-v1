@@ -10,6 +10,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
+            
               src='https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f8/5a/79/f85a79d4-e040-4716-ca84-5cfcb5fe18ac/artwork.jpg/486x486bb.png'
               text='Apocalypse Planet Loops - 2020'
               label='Album'
@@ -33,7 +34,8 @@ function Cards() {
               src='https://i1.sndcdn.com/artworks-uOh69n5vZw4OAyCQ-0kPnNg-t200x200.jpg'
               text='2049-9019 - 2020'
               label='Album'
-              path='/sign-up'
+              path = '/signup'
+            
             />
             <CardItem
               src='https://images-na.ssl-images-amazon.com/images/I/51ek2GZUcbL._SY445_SX342_QL70_ML2_.jpg'
