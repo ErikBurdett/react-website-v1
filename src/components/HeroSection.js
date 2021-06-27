@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import { MerchButton } from './MerchButton';
 
 function HeroSection() {
   return (
@@ -25,6 +26,14 @@ function HeroSection() {
         >
           LISTEN <i class="fas fa-dharmachakra"/>
         </Button>
+        <MerchButton
+          className='btns'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+          onClick={console.log('hey')}
+        >
+          SHOP <i class="fas fa-dharmachakra"/>
+        </MerchButton>
       </div>
     </div>
   );
