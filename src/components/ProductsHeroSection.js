@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import { PrintsButton } from './PrintsButton';
 import './HeroSection.css';
 import { MerchButton } from './MerchButton';
 
@@ -11,13 +11,13 @@ function ProductsHeroSection() {
       <h1>TELEPHONE HEATER</h1>
       <h2><i class="fas fa-dharmachakra"></i></h2>
       <div className='hero-btns'>
-        <Button
+        <PrintsButton
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
         >
          <i class="fas fa-dharmachakra"/> PRINTS <i class="fas fa-dharmachakra"/>
-        </Button>
+        </PrintsButton>
         <MerchButton
           className='btns'
           buttonStyle='btn--primary'
